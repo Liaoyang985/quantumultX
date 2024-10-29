@@ -21,7 +21,7 @@ TG群聊:https://t.me/LxiCollectionhallChat
 ===================|调试区|====================
 
 [rewrite_local]
-^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) url script-request-header pt_key.js
+^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) url script-response-body https://raw.githubusercontent.com/Liaoyang985/quantumultX/refs/heads/main/pt_key.js
 
 [MITM]
 hostname = %APPEND% api.m.jd.com
